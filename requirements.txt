@@ -1,0 +1,10 @@
+carbontracker
+colorcet
+h5py
+matplotlib
+notebook
+numpy
+pandas
+scikit_learn
+scipy
+torch
