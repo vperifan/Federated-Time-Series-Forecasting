@@ -1,5 +1,5 @@
 ## Federated Time-Series Forecasting
-This is the code accompanying the submission to the [Federated Traffic Prediction for 5G and Beyond Challenge](https://supercom.cttc.es/index.php/ai-challenge-2022) of the [Euclid](https://euclid.ee.duth.gr/) team and the corresponding paper entitled "Federated Learning for 5G Base Station Traffic Forecasting" by Vasileios Perifanis, Nikolaos Pavlidis, Remous-Aris Koutsiamanis, Pavlos S. Efraimidis, 2022.
+This is the code accompanying the submission to the [Federated Traffic Prediction for 5G and Beyond Challenge](https://supercom.cttc.es/index.php/ai-challenge-2022) of the [Euclid](https://euclid.ee.duth.gr/) team and the corresponding paper entitled "[Federated Learning for 5G Base Station Traffic Forecasting](https://arxiv.org/abs/2211.15220)" by Vasileios Perifanis, Nikolaos Pavlidis, Remous-Aris Koutsiamanis, Pavlos S. Efraimidis, 2022.
 
 ---
 
