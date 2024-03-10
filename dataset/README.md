@@ -46,6 +46,8 @@ We parse, reorganize, and downsample the datasets with the granularity of two mi
 
 In our short analysis we examine the data distributions for each base station, as illustrated in the Figure below. Notably, the data exhibit three distinct skews in terms of quantity, quality, and temporality across the base stations. The amount of data (quantity skew) varies significantly among base stations, with Sants1 recording the highest number of measurements (26555) and El Born the lowest (5241). Additionally, substantial variations exist in the statistical distributions (quality skew) of Downlink and Uplink variables across the base stations, with unique patterns emerging under various circumstances. Finally, the data collection spans different time periods (temporal skew), from January 2018 to January 2022.
 
-<div style="width:80px; height:80px">
+<div style="width:80 px; height:80 px">
+  
 ![Distribution of Uplink/Downlink traffic at the different BS sites](img/dataset_distribution.png)
+
 </div>
