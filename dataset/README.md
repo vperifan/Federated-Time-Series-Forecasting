@@ -6,7 +6,7 @@ Specifically, the measurements were retrieved from Downlink Control Information 
 
 The entire data collection procedure is illustrated in the Figure below. First, a software-defined radio (SDR), namely Nuand BladeRF x40, is used to capture frames from the PDCCH. The captured frames are decoded by OWL, an open-source software tool. Finally, the raw data is processed and stored. The processing operations include the derivation of complementary performance indicators (e.g., uplink/downlink throughput) and the downsampling of the dataset by combining multiple consecutive samples (e.g., averaging data over windows). The resulting features are described in the Table below.
 
-![Dataset generation through the collection of PDCCH measurements and processing](/img/data_collection.png)
+![Dataset generation through the collection of PDCCH measurements and processing](img/data_collection.png)
 
 **Table: Set of features captured in the LTE PDCCH dataset.**
 
