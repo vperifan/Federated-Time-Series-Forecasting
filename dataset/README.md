@@ -35,7 +35,9 @@ Following the aforementioned data collection approach, we gathered data from dif
 - **Eixample (E):** Located in the heart of the city, this is a residential area with relevant touristic interest points (e.g., La Sagrada Familia).
 
 <div style="width:50 px; height:50 px">
+  
 ![Map with the locations of the analyzed BSs in the area of Barcelona](img/barcelona_map3.png)
+
 </div>
 
 ### Dataset Processing
