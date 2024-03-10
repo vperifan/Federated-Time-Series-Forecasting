@@ -32,7 +32,7 @@ Following the aforementioned data collection approach, we gathered data from dif
 - **Sants (S):** A residential area with the biggest train station of the city, near Les Corts and L'Hospitalet. Measurements were collected at two distinct temporal intervals, collectively spanning a duration of 58 days.
 - **Eixample (E):** Located in the heart of the city, this is a residential area with relevant touristic interest points (e.g., La Sagrada Familia).
 
-![Map with the locations of the analyzed BSs in the area of Barcelona](/img/barcelona_map3.png)
+![Map with the locations of the analyzed BSs in the area of Barcelona](img/barcelona_map3.png)
 
 ### Dataset Processing
 
@@ -42,4 +42,4 @@ We parse, reorganize, and downsample the datasets with the granularity of two mi
 
 In our short analysis we examine the data distributions for each base station, as illustrated in the Figure below. Notably, the data exhibit three distinct skews in terms of quantity, quality, and temporality across the base stations. The amount of data (quantity skew) varies significantly among base stations, with Sants1 recording the highest number of measurements (26555) and El Born the lowest (5241). Additionally, substantial variations exist in the statistical distributions (quality skew) of Downlink and Uplink variables across the base stations, with unique patterns emerging under various circumstances. Finally, the data collection spans different time periods (temporal skew), from January 2018 to January 2022.
 
-![Distribution of Uplink/Downlink traffic at the different BS sites](/img/dataset_distribution.png)
+![Distribution of Uplink/Downlink traffic at the different BS sites](img/dataset_distribution.png)
