@@ -1,5 +1,8 @@
 ## Federated Time-Series Forecasting
-This is the code accompanying the submission to the [Federated Traffic Prediction for 5G and Beyond Challenge](https://supercom.cttc.es/index.php/ai-challenge-2022) of the [Euclid](https://euclid.ee.duth.gr/) team and the corresponding paper entitled "[Federated Learning for 5G Base Station Traffic Forecasting](https://arxiv.org/abs/2211.15220)" by Vasileios Perifanis, Nikolaos Pavlidis, Remous-Aris Koutsiamanis, Pavlos S. Efraimidis, 2022.
+This is the code accompanying the submission to the [Federated Traffic Prediction for 5G and Beyond Challenge](https://supercom.cttc.es/index.php/ai-challenge-2022) of the [Euclid](https://euclid.ee.duth.gr/) team and the corresponding paper entitled "[Federated Learning for 5G Base Station Traffic Forecasting](https://www.sciencedirect.com/science/article/abs/pii/S138912862300395X)" by Vasileios Perifanis, Nikolaos Pavlidis, Remous-Aris Koutsiamanis, Pavlos S. Efraimidis, 2022.
+
+An extension of this work with an in-depth analysis of the energy consumption of the corresponding machine learning models was presented in [2023 Eighth International Conference on Fog and Mobile Edge Computing (FMEC)](https://ieeexplore.ieee.org/xpl/conhome/10305711/proceeding) with the paper entitled "[Towards Energy-Aware Federated Traffic Prediction for Cellular Networks
+](https://ieeexplore.ieee.org/abstract/document/10306017)" by Vasileios Perifanis, Nikolaos Pavlidis, Selim F. Yilmaz, Francesc Wilhelmi, Elia Guerra, Marco Miozzo, Pavlos S. Efraimidis, Paolo Dini, Remous-Aris Koutsiamanis.
 
 ---
 
@@ -58,3 +61,6 @@ $ pip install -r requirements.txt
 
 ### Examples
 Refer to [notebooks](notebooks) for usage examples.
+
+### Dataset
+For an extensive overview of the data collection and processing procedure please refer to [datataset](dataset).
