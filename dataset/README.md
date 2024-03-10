@@ -6,7 +6,7 @@ Specifically, the measurements were retrieved from Downlink Control Information 
 
 The entire data collection procedure is illustrated in the Figure below. First, a software-defined radio (SDR), namely Nuand BladeRF x40, is used to capture frames from the PDCCH. The captured frames are decoded by OWL, an open-source software tool. Finally, the raw data is processed and stored. The processing operations include the derivation of complementary performance indicators (e.g., uplink/downlink throughput) and the downsampling of the dataset by combining multiple consecutive samples (e.g., averaging data over windows). The resulting features are described in the Table below.
 
-![Dataset generation through the collection of PDCCH measurements and processing](img/data_collection.pdf)
+![Dataset generation through the collection of PDCCH measurements and processing](/img/data_collection.pdf)
 
 **Table: Set of features captured in the LTE PDCCH dataset.**
 
@@ -32,7 +32,7 @@ Following the aforementioned data collection approach, we gathered data from dif
 - **Sants (S):** A residential area with the biggest train station of the city, near Les Corts and L'Hospitalet. Measurements were collected at two distinct temporal intervals, collectively spanning a duration of 58 days.
 - **Eixample (E):** Located in the heart of the city, this is a residential area with relevant touristic interest points (e.g., La Sagrada Familia).
 
-![Map with the locations of the analyzed BSs in the area of Barcelona](img/barcelona_map3.pdf)
+![Map with the locations of the analyzed BSs in the area of Barcelona](/img/barcelona_map3.pdf)
 
 ### Dataset Processing
 
@@ -42,4 +42,4 @@ We parse, reorganize, and downsample the datasets with the granularity of two mi
 
 In our short analysis we examine the data distributions for each base station, as illustrated in the Figure below. Notably, the data exhibit three distinct skews in terms of quantity, quality, and temporality across the base stations. The amount of data (quantity skew) varies significantly among base stations, with Sants1 recording the highest number of measurements (26555) and El Born the lowest (5241). Additionally, substantial variations exist in the statistical distributions (quality skew) of Downlink and Uplink variables across the base stations, with unique patterns emerging under various circumstances. Finally, the data collection spans different time periods (temporal skew), from January 2018 to January 2022.
 
-![Distribution of Uplink/Downlink traffic at the different BS sites](img/dataset_distribution.pdf)
+![Distribution of Uplink/Downlink traffic at the different BS sites](/img/dataset_distribution.pdf)
