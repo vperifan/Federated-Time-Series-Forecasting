@@ -4,6 +4,8 @@ This is the code accompanying the submission to the [Federated Traffic Predictio
 An extension of this work with an in-depth analysis of the energy consumption of the corresponding machine learning models was presented in [2023 Eighth International Conference on Fog and Mobile Edge Computing (FMEC)](https://ieeexplore.ieee.org/xpl/conhome/10305711/proceeding) with the paper entitled "[Towards Energy-Aware Federated Traffic Prediction for Cellular Networks
 ](https://ieeexplore.ieee.org/abstract/document/10306017)" by Vasileios Perifanis, Nikolaos Pavlidis, Selim F. Yilmaz, Francesc Wilhelmi, Elia Guerra, Marco Miozzo, Pavlos S. Efraimidis, Paolo Dini, Remous-Aris Koutsiamanis.
 
+Finally, this repository includes the extension presented in the Paper [Evaluation of Bio-Inspired Models under Different Learning Settings For Energy Efficiency in Network Traffic Prediction](https://arxiv.org/pdf/2412.17565?) that evaluates emerging bio-inspired models such as Spiking Neural Networks and Reservoir-Computing to address the challenge of Energy Efficiency.
+
 ---
 
 This code can serve as benchmark for federated time-series forecasting. 
